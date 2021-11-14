@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/theopopelin/rendu14112021/issues"
   },
-  "homepage": "https://github.com/theopopelin/rendu14112021#readme"
+  "homepage": "https://github.com/theopopelin/rendu14112021#readme",
+  "dependencies": {
+    "node": "^17.1.0"
+  }
 }
