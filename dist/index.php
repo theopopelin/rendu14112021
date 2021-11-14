@@ -1,1 +1,1 @@
-echo "helloworldfromdist";
+<?php echo "helloworldfromdist"; ?>
