@@ -1,1 +1,0 @@
-print('<div>Print this after the script tag</div>');
