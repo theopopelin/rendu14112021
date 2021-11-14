@@ -4,8 +4,7 @@
   "description": "rendu",
   "main": "index.js",
   "scripts": {
-    "test": "testrendu",
-    "build": "npm run build"
+    "test": "testrendu"
   },
   "repository": {
     "type": "git",
