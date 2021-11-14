@@ -3,7 +3,7 @@ name : CI/CD
 on:
   push:
       branches:
-        - master
+        - preprod
 
 jobs:
   ci-cd:
@@ -33,4 +33,4 @@ jobs:
       - name: "Deploy"
         run: |
           gem install dpl
-          dpl --provider=heroku --app=${{ secrets.HEROKU_APP_PREPROD }} --api-key=${{ secrets.HEROKU_API_KEY }} --skip_cleanup=true
+          dpl --provider=heroku --app=${{ secrets.HEROKU_PREPROD }} --api-key=${{ secrets.HEROKU_API_KEY }} --skip_cleanup=true
