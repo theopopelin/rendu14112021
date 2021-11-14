@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "testrendu",
-    "build": "node build.js"
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
